@@ -1,5 +1,7 @@
 function Quick()
 {
+  document.getElementById("Info_Cont1").innerHTML = "Quick Sort Time complexity : O(n^2)"
+        document.getElementById("Info_Cont2").innerHTML = "Quick Sort Space complexity : O(log n)"
     c_delay=0;
 
     quick_sort(0,array_size-1);

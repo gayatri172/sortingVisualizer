@@ -1,5 +1,7 @@
 function Selection_sort()
 {
+  document.getElementById("Info_Cont1").innerHTML = "Selection Sort Time complexity : O(n^2)"
+        document.getElementById("Info_Cont2").innerHTML = "Selection Sort Space complexity : O(1)"
     c_delay=0;
 
     for(var i=0;i<array_size-1;i++)

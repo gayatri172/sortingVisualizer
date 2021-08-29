@@ -1,5 +1,7 @@
 function Merge()
 {
+  document.getElementById("Info_Cont1").innerHTML = "Merge Sort Time complexity : O(n logn)"
+        document.getElementById("Info_Cont2").innerHTML = "Merge Sort Space complexity : O(n)"
     c_delay=0;
 
     merge_partition(0,array_size-1);

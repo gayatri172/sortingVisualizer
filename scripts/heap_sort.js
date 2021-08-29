@@ -1,6 +1,8 @@
 function Heap()
 {
-    c_delay=0;
+  document.getElementById("Info_Cont1").innerHTML = "Heap Sort Time complexity : O(n logn)"
+    document.getElementById("Info_Cont2").innerHTML = "Heap Sort Space complexity : O(1)"
+    c_delay = 0;
 
     heap_sort();
     

@@ -1,5 +1,8 @@
 function Bubble()
 {
+    document.getElementById("Info_Cont1").innerHTML = "Bubble Sort Time complexity : O(n^2)"
+        document.getElementById("Info_Cont2").innerHTML = "Bubble Sort Space complexity : O(1)"
+
     c_delay=0;
 
     for(var i=0;i<array_size-1;i++)

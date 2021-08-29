@@ -1,5 +1,7 @@
 function Insertion()
 {
+  document.getElementById("Info_Cont1").innerHTML = "Insertion Sort Time complexity : O(n^2)"
+        document.getElementById("Info_Cont2").innerHTML = "Insertion Sort Space complexity : O(1)"
     c_delay=0;
 
     for(var j=0;j<array_size;j++)
